@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf');
-const bot = new Telegraf('2134961357:AAEfpj4kh2oHLZxgTdMEo3CbDYe48znwO9Q');
-const discord_token = "ODc2NzQxNzk3NDA0MDg2MzI0.YRofbQ.dTYZENlixQzzKhuDsqBp4qsb4os";
+const bot = new Telegraf('TELEGRAM_TOKEN');
+const discord_token = "BOT_TOKEN";
 const { Client, MessageAttachment } = require('discord.js');
 const client = new Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 
